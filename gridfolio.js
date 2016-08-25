@@ -15,25 +15,30 @@ Rows can have 1 - 9 blocks.
 
 var gf_content = [
 [ // row
-{ // block
-title: "Gridfolio: a simple layout for developers >>",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "",
-customHeight: true,
-style: {
-backgroundColor: "#f1f1f2",
-height: "40px",
-color: "#555",
-fontSize: "10px",
-letterSpacing: "0.5px"
-}
-},
+// { // block
+// title: "Gridfolio: a simple layout for developers >>",
+// link: "https://github.com/christinecha/gridfolio",
+// imageURL: "",
+// customHeight: true,
+// style: {
+// backgroundColor: "#f1f1f2",
+// height: "40px",
+// color: "#555",
+// fontSize: "10px",
+// letterSpacing: "0.5px"
+// }
+// },
+//
+//
+// Don't worry, I'll credit her
+//
+//
 ],
 [ // row
 { // block
-title: "Jane Javascript",
+title: "Laurence Cruz",
 style: {
-backgroundColor: "#00aeef",
+backgroundColor: "rgb(70, 195, 178)",
 fontSize: "25px",
 letterSpacing: "1px"
 }
