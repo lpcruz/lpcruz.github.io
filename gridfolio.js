@@ -27,48 +27,73 @@ letterSpacing: "1px"
 
 },
 { // block
-title: "Project #1",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "http://facespayneuter.org/wp-content/uploads/2014/08/foundkittens.jpg",
-keywords: ["skill", "thing", "language", "library"]
+title: "Squarespace \n Engineer" ,
+style: {
+backgroundColor: "#414141",
+fontSize: "25px",
+letterSpacing: "1px"
+},
+link: "https://www.squarespace.com",
+keywords: ["qa", "node", "javascript", "nightwatch"]
 },
 
 { // block
-title: "Project #2",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "https://www.washingtonpost.com/blogs/local/files/2014/10/4-kittens1.jpg",
-keywords: ["skill", "thing", "language", "library"]
+title: "ScriptEd Volunteer",
+style: {
+backgroundColor: "#EF5330",
+fontSize: "25px",
+letterSpacing: "1px"
+},
+link: "https://scripted.org/volunteer",
+keywords: ["frontend", "html", "css", "javascript", "jQuery", "bootstrap"]
 },
 
 { // block
-title: "Project #3",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "https://s3.amazonaws.com/rapgenius/cats-animals-kittens-background.jpg",
-keywords: ["skill", "thing", "language", "library"]
+title: "Holy Cross 2013",
+link: "http://holycross.edu",
+style: {
+backgroundColor: "#63257B",
+fontSize: "25px",
+letterSpacing: "1px"
+},
+keywords: ["english", "digital media", "education", "social justice"]
 }
 ],
 
 [  // row
 { // block
-title: "Project #4",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "http://www.tshirtvortex.net/wp-content/uploads/Mister-Mittens-Big-Adventure.jpg",
+title: "nightwatch.py",
+link: "https://github.com/lpcruz/nightwatch",
+style: {
+backgroundColor: "#3276B1",
+fontSize: "25px",
+letterSpacing: "1px"
+},
+keywords: ["qa", "test automation", "python", "selenium"]
+},
+
+{ // block
+title: "TBD",
+link: "/#",
+style: {
+backgroundColor: "#AAAAAA",
+fontSize: "25px",
+letterSpacing: "1px"
+},
 keywords: ["skill", "thing", "language", "library"]
 },
 
 { // block
-title: "Project #5",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "http://data.whicdn.com/images/79011117/large.jpg",
+title: "TBD",
+link: "/#",
+style: {
+backgroundColor: "#AAAAAA",
+fontSize: "25px",
+letterSpacing: "1px"
+},
 keywords: ["skill", "thing", "language", "library"]
 },
 
-{ // block
-title: "Project #6",
-link: "https://github.com/christinecha/gridfolio",
-imageURL: "https://s-media-cache-ak0.pinimg.com/736x/be/09/56/be09569e65ee1e58e1cdb954da4c6192.jpg",
-keywords: ["skill", "thing", "language", "library"]
-}
 ]
 ];
 
