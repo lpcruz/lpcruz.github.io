@@ -20,7 +20,7 @@ var gf_content = [
 { // block
 title: "Laurence Cruz",
 style: {
-backgroundColor: "rgb(70, 195, 178)",
+backgroundColor: "rgb(28, 179, 124",
 fontSize: "25px",
 letterSpacing: "1px"
 }
