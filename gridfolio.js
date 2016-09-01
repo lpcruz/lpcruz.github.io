@@ -62,14 +62,14 @@ keywords: ["english", "digital media", "education", "social justice"]
 
 [  // row
 { // block
-title: "nightwatch.py",
-link: "https://github.com/lpcruz/nightwatch",
+title: "Github",
+link: "https://github.com/lpcruz",
 style: {
 backgroundColor: "#3276B1",
 fontSize: "25px",
 letterSpacing: "1px"
 },
-keywords: ["qa", "test automation", "python", "selenium"]
+keywords: ["projects", "node", "javascript", "python"]
 },
 
 { // block
