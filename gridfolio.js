@@ -23,9 +23,11 @@ style: {
 backgroundColor: "rgb(28, 179, 124",
 fontSize: "25px",
 letterSpacing: "1px"
-}
-
 },
+link: "https://www.laurencecruz.com",
+keywords: ["developer", "adventurer", "photographer", "nyc"]
+},
+
 { // block
 title: "Squarespace \n Engineer" ,
 style: {
@@ -63,7 +65,7 @@ keywords: ["english", "digital media", "education", "social justice"]
 [  // row
 { // block
 title: "Github",
-link: "https://github.com/lpcruz",
+link: "https://www.github.com/lpcruz",
 style: {
 backgroundColor: "#3276B1",
 fontSize: "25px",
