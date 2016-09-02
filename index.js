@@ -47,6 +47,7 @@ function addStyles(node, style) {
   return node;
 }
 
+//@TODO: Migrate to jQuery
 // Run through Gridfolio content array.
 requirejs(["gridfolio"], function() {
 
@@ -77,6 +78,11 @@ requirejs(["gridfolio"], function() {
           link.appendChild(spanProto.cloneNode());
           blockTitle = link;
         }
+
+        // give attributes to each div
+        $('.gf-block').each(function(i){
+          $(this).attr('data-tweak-name', 'block-'+(i+1));
+        });
 
         // set block keywords
         var blockKeywords = blockKeywordsProto.cloneNode();
