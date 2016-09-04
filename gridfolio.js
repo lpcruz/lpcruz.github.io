@@ -24,7 +24,7 @@ backgroundColor: "rgb(28, 179, 124",
 fontSize: "25px",
 letterSpacing: "1px"
 },
-link: "https://www.laurencecruz.com",
+link: "http://www.laurencecruz.com",
 keywords: ["developer", "adventurer", "photographer", "nyc"]
 },
 
