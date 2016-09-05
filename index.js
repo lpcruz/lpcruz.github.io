@@ -1,3 +1,4 @@
+requirejs(["../js/test"]);
 // DOM Element selectors
 var gridfolioContainer = document.getElementById("gridfolio");
 
@@ -83,6 +84,9 @@ requirejs(["gridfolio"], function() {
         $('.gf-block').each(function(i){
           $(this).attr('data-tweak-name', 'block-'+(i+1));
         });
+
+        // animate newly made data-tweak divs
+
 
         // set block keywords
         var blockKeywords = blockKeywordsProto.cloneNode();
