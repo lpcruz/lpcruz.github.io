@@ -1,16 +1,28 @@
-.logo img {
-    height: 150px;
-    margin-top:150px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-
+.logo {
+  position: absolute;
+  top: 50%;auto;
+  left: 50%;
+  margin-top: -65px;
+  margin-left: -168px;
 }
 
-.heading {
-  float: right;
+.logo-wrapper {
+  width: 110px;
+  display: inline-block;
+}
+
+.logo-wrapper img {
+  height: 150px;
+  margin: 0 auto;
+  display: inline-block;
+  margin-bottom: -70px;
+}
+
+.name-wrapper {
+  display: inline-block;
+}
+
+.name-wrapper .heading {
   -webkit-animation: text-fade 1.8s;
 }
 
