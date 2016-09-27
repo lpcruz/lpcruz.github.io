@@ -56,12 +56,12 @@
   margin-top: 25px;
   margin-left: 75px;
   -webkit-animation: text-fade 4.8s;
+  transition: .25s all;
 }
 
 .enter-wrapper button:hover {
   background-color: #01BDC1;
   color: #FFF;
-  transition: .5s;
   cursor: pointer;
 }
 
