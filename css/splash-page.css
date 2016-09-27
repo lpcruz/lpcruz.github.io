@@ -52,6 +52,7 @@
   width: 115px;
   height: 42px;
   border: solid thin #01BDC1;
+  border-radius: 25px;
   margin-top: 25px;
   margin-left: 75px;
   -webkit-animation: text-fade 4.8s;
