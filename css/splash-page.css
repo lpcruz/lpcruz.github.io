@@ -30,7 +30,7 @@
 .name-wrapper .tagline {
   font-family: Montserrat;
   font-weight: 100;
-  -webkit-animation: text-fade 2.8s;
+  -webkit-animation: text-fade 3.0s;
 }
 
 .name-wrapper h1 {
@@ -54,7 +54,7 @@
   border: solid thin #01BDC1;
   margin-top: 25px;
   margin-left: 75px;
-  -webkit-animation: text-fade 3.8s;
+  -webkit-animation: text-fade 4.8s;
 }
 
 .enter-wrapper button:hover {
