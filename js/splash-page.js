@@ -8,6 +8,7 @@ logo.addEventListener('mouseover', function() {
     } else {
         logo.className += ' animated bounce';
     }
+    console.log ('Logo should be b-b-b-b-bouncing');
 });
 
 logo.addEventListener('mouseout', function() {
