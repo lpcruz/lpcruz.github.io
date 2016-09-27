@@ -15,17 +15,54 @@
   height: 150px;
   margin: 0 auto;
   display: inline-block;
-  margin-bottom: -70px;
+  margin-bottom: -2px;
 }
 
 .name-wrapper {
   display: inline-block;
+  color: #424242;
 }
 
 .name-wrapper .heading {
   -webkit-animation: text-fade 1.8s;
 }
 
+.name-wrapper .tagline {
+  font-family: Montserrat;
+  font-weight: 100;
+  -webkit-animation: text-fade 2.8s;
+}
+
+.name-wrapper h1 {
+  font-family: Montserrat;
+  font-weight: lighter;
+}
+
+.enter-wrapper {
+  display:inline-block;
+}
+
+.enter-wrapper button {
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #01BDC1;
+  background-color: #FFF;
+  width: 115px;
+  height: 42px;
+  border: solid thin #01BDC1;
+  margin-top: 25px;
+  margin-left: 75px;
+  -webkit-animation: text-fade 3.8s;
+}
+
+.enter-wrapper button:hover {
+  background-color: #01BDC1;
+  color: #FFF;
+  transition: .5s;
+  cursor: pointer;
+}
 
 
 /* webkit animations */
