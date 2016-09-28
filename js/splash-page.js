@@ -1,38 +1,25 @@
-// LogoContainer
-const LogoContainer = React.createElement('div', { className: 'logo animated bounceInDown' });
-
-// HeaderWrapper
-const HeaderWrapper = React.createElement('div', { className: 'header-wrapper' });
-
-// LogoWrapper
-const LogoWrapper = React.createElement('div', { className: 'logo-wrapper' });
-
-// Logo Asset
-const Logo = React.createElement('img', { src: './assets/logo.png'});
-
-// NameWrapper
-const NameWrapper = React.createElement('div', { className: 'name-wrapper'});
+const Splash =
+    React.createElement('div', { className: 'logo animated bounceInDown' },
+        React.createElement('div', { className: 'header-wrapper'},
+        React.createElement('div', { className: 'logo-wrapper'},
+            React.createElement('img', { src: './assets/logo.png'})
+        ),
+            React.createElement('div', { className: 'name-wrapper'},
+                React.createElement('h1', { className: 'heading'}, 'Hi there. I\'m Laurence.'),
+                React.createElement('h3', { className: 'tagline'}, 'I\'m a developer with a penchant for creativty and education.'),
+                React.createElement('div', { className: 'enter-wrapper'},
+                    React.createElement('a', { href: 'http://www.laurencecruz.com'},
+                        React.createElement('button', {className: 'enter-button'}, 'Enter')
+                    )
+                )
+            )
+        )
+);
 
 ReactDOM.render(
-    LogoContainer,
+    Splash,
     document.getElementById('site')
 );
-
-ReactDOM.render(
-    HeaderWrapper,
-    document.querySelector('.logo.animated.bounceInDown')
-);
-
-ReactDOM.render(
-    LogoWrapper,
-    document.querySelector('.header-wrapper')
-);
-
-ReactDOM.render(
-    Logo,
-    document.querySelector('.logo-wrapper')
-);
-
 
 // Make the logo bounce on hover
 
