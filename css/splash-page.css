@@ -15,7 +15,7 @@
   height: 150px;
   margin: 0 auto;
   display: inline-block;
-  margin-bottom: -2px;
+  margin-bottom: 30px;
 }
 
 .name-wrapper {
@@ -28,7 +28,6 @@
 }
 
 .name-wrapper .tagline {
-  font-family: Montserrat;
   font-weight: 100;
   -webkit-animation: text-fade 3.0s;
 }
@@ -43,6 +42,7 @@
 }
 
 .enter-wrapper button {
+  font-family: Montserrat;
   font-weight: 100;
   font-size: 13px;
   letter-spacing: 3px;
