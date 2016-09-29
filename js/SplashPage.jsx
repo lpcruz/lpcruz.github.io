@@ -1,3 +1,8 @@
+/**
+ * The module containing the components rendered on the Splash Page
+ *
+ */
+
 const Splash =
     React.createElement('div', { className: 'logo animated bounceInDown' },
         React.createElement('div', { className: 'header-wrapper'},
@@ -6,7 +11,7 @@ const Splash =
         ),
             React.createElement('div', { className: 'name-wrapper'},
                 React.createElement('h1', { className: 'heading'}, 'Hi there. I\'m Laurence.'),
-                React.createElement('h3', { className: 'tagline'}, 'I\'m a developer with a penchant for creativty and education.'),
+                React.createElement('h3', { className: 'tagline'}, 'I\'m a developer with a penchant for creativity and education.'),
                 React.createElement('div', { className: 'enter-wrapper'},
                     React.createElement('a', { href: 'http://www.laurencecruz.com'},
                         React.createElement('button', {className: 'enter-button'}, 'Enter')
