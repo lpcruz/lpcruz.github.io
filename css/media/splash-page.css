@@ -1,0 +1,77 @@
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+  .logo {
+    position: absolute;
+    top: 50%;auto;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -168px;
+  }
+
+  .logo-wrapper {
+    width: 110px;
+    display: inline-block;
+  }
+
+  .logo-wrapper img {
+    height: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: -103px;
+  }
+
+  .name-wrapper {
+    display: inline-block;
+    color: #424242;
+  }
+
+  .name-wrapper .heading {
+    font-size: 20px;
+    -webkit-animation: text-fade 1.8s;
+    margin-left: 75px;
+  }
+
+  .name-wrapper .tagline {
+    font-weight: 100;
+    -webkit-animation: text-fade 3.0s;
+    margin-left: 75px;
+    font-size: 15px;
+  }
+
+  .name-wrapper h1 {
+    font-family: Montserrat;
+    font-weight: lighter;
+  }
+
+  .enter-wrapper {
+    display:inline-block;
+  }
+
+  .enter-wrapper button {
+    font-family: Montserrat;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #01BDC1;
+    background-color: #FFF;
+    width: 115px;
+    height: 42px;
+    border: solid thin #01BDC1;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 121px;
+    -webkit-animation: text-fade 4.8s;
+    transition: .25s all;
+  }
+
+  .enter-wrapper button:hover {
+    background-color: #01BDC1;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+
+}

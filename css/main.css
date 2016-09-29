@@ -2,6 +2,9 @@
 @import url('./animate.css');
 @import url('./splash-page.css');
 
+/* Mobile Styles */
+@import url('./media/splash-page.css');
+
 
 @-webkit-keyframes logo-drop {
   0% { margin-top: -300px; -webkit-transform: rotate(45deg); }
