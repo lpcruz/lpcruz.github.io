@@ -2,7 +2,7 @@
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 
-  .logo {
+  .Container {
     position: absolute;
     top: 50%;auto;
     left: 50%;
@@ -10,46 +10,42 @@ and (max-device-width : 667px) {
     margin-left: -168px;
   }
 
-  .logo-wrapper {
+  .logoWrapper {
     width: 110px;
     display: inline-block;
   }
 
-  .logo-wrapper img {
+  .logoWrapper img {
     height: 100px;
     margin: 0 auto;
     display: inline-block;
     margin-bottom: -103px;
   }
 
-  .name-wrapper {
+  .nameWrapper {
     display: inline-block;
     color: #424242;
   }
 
-  .name-wrapper .heading {
-    font-size: 20px;
+  .nameWrapper .Heading {
     -webkit-animation: text-fade 1.8s;
-    margin-left: 75px;
+    margin-left: 74px;
+    font-size: 20px;
   }
 
-  .name-wrapper .tagline {
+  .nameWrapper .Tagline {
     font-weight: 100;
     -webkit-animation: text-fade 3.0s;
     margin-left: 75px;
     font-size: 15px;
   }
 
-  .name-wrapper h1 {
-    font-family: Montserrat;
-    font-weight: lighter;
-  }
 
-  .enter-wrapper {
+  .enterWrapper {
     display:inline-block;
   }
 
-  .enter-wrapper button {
+  .enterWrapper button {
     font-family: Montserrat;
     font-weight: 100;
     font-size: 13px;
@@ -67,11 +63,10 @@ and (max-device-width : 667px) {
     transition: .25s all;
   }
 
-  .enter-wrapper button:hover {
+  .enterWrapper button:hover {
     background-color: #01BDC1;
     color: #FFF;
     cursor: pointer;
   }
-
 
 }
