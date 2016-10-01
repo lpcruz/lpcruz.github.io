@@ -4,17 +4,17 @@
  */
 
 const Splash =
-    React.createElement('div', { className: 'logo animated bounceInDown' },
-        React.createElement('div', { className: 'header-wrapper'},
-        React.createElement('div', { className: 'logo-wrapper'},
+    React.createElement('div', { className: 'Container' },
+        React.createElement('div', { className: 'headerWrapper'},
+        React.createElement('div', { className: 'logoWrapper animated bounceInDown'},
             React.createElement('img', { src: './assets/logo.png'})
         ),
-            React.createElement('div', { className: 'name-wrapper'},
-                React.createElement('h1', { className: 'heading'}, 'Hi there. I\'m Laurence.'),
-                React.createElement('h3', { className: 'tagline'}, 'I\'m a developer with a penchant for creativity and education.'),
-                React.createElement('div', { className: 'enter-wrapper'},
+            React.createElement('div', { className: 'nameWrapper'},
+                React.createElement('h1', { className: 'Heading'}, 'Hi there. I\'m Laurence.'),
+                React.createElement('h3', { className: 'Tagline'}, 'I\'m a developer with a penchant for creativity and education.'),
+                React.createElement('div', { className: 'enterWrapper'},
                     React.createElement('a', { href: 'http://www.laurencecruz.com'},
-                        React.createElement('button', {className: 'enter-button'}, 'Enter')
+                        React.createElement('button', {className: 'enterButton'}, 'Enter')
                     )
                 )
             )
