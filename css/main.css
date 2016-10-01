@@ -2,8 +2,10 @@
 @import url('./animate.css');
 @import url('./splash-page.css');
 
+
 /* Mobile Styles */
-@import url('./media/splash-page.css');
+@import url('./media/iOS/splash-page.css');
+@import url('./media/android/splash-page.css');
 
 
 @-webkit-keyframes logo-drop {
