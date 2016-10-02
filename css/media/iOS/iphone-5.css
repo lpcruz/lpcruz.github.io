@@ -1,15 +1,15 @@
-/* The mobile styles for iOS */
+/* The mobile styles for the iphone 5 */
 
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
 
   .Container {
     position: absolute;
     top: 50%;auto;
     left: 50%;
     margin-top: -65px;
-    margin-left: -199px;
+    margin-left: -165px;
   }
 
   .logoWrapper {
@@ -39,7 +39,7 @@ and (max-device-width : 667px) {
     font-weight: 100;
     -webkit-animation: text-fade 3.0s;
     margin-left: 75px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
 
@@ -50,13 +50,13 @@ and (max-device-width : 667px) {
   .enterWrapper button {
     font-family: Montserrat;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #01BDC1;
     background-color: #FFF;
-    width: 115px;
-    height: 42px;
+    width: 95px;
+    height: 34px;
     border: solid thin #01BDC1;
     border-radius: 25px;
     margin-top: 25px;

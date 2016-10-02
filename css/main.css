@@ -4,8 +4,9 @@
 
 
 /* Mobile Styles */
-@import url('./media/iOS/splash-page.css');
-@import url('./media/android/splash-page.css');
+@import url('./media/iOS/iphone-6.css');
+@import url('./media/iOS/iphone-5.css');
+@import url('./media/android/samsung.css');
 
 
 @-webkit-keyframes logo-drop {
