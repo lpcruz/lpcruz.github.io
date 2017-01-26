@@ -35,6 +35,7 @@ function showTextOnClick() {
   var button = document.querySelector('button');
   var pageContent = document.querySelector('#content');
 
+  button.setAttribute('data-test','test')
   button.style = 'display:none;';
   pageContent.innerHTML = 'Nice! You clicked the button.';
 
