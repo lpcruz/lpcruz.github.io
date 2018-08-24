@@ -11,7 +11,7 @@ const Splash =
         ),
             React.createElement('div', { className: 'nameWrapper'},
                 React.createElement('h1', { className: 'Heading'}, 'Hi there. I\'m Laurence.'),
-                React.createElement('h3', { className: 'Tagline'}, 'I\'m a developer with a penchant for creativity and education.'),
+                React.createElement('h3', { className: 'Tagline'}, 'I\'m a software engineer & visual creative living in NYC.'),
                 React.createElement('div', { className: 'enterWrapper'},
                     React.createElement('a', { href: 'http://www.laurencecruz.com'},
                         React.createElement('button', {className: 'enterButton'}, 'Enter')
