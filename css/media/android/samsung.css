@@ -22,11 +22,13 @@ and (max-device-width : 640px) {
     margin: 0 auto;
     display: inline-block;
     margin-bottom: -103px;
+    margin-left: -20px;
   }
 
   .nameWrapper {
     display: inline-block;
     color: #424242;
+    margin-left: -24px;
   }
 
   .nameWrapper .Heading {
